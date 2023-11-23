@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    width: 100%;
+    height: auto;
+    font-family:Montserrat;
+    background-color: #111111;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   background-color: #111111;
+}
+
+.menubar{
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 50vw;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.page-1{
+    display: flex;
+    background-color: #111111;
+}
+
+.man img{
+    width: 450px;
+    padding-left: 50px;
+}
+
+.des-box{
+    color: #fff;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.name{
+    color: #ff3343;
+}
+
+.profession-name{
+    font-size: 65px;
+    margin-top: -10px;
+}
+
+.description{
+    width: 350px;
+    margin-top: -45px;
+}
+
+.about-me{
+    background-color: #c91b28;
+    color: #fff;
+    padding: 10px 35px;
+    font-weight: 600;
+}
+
+.page-2{
+    display: flex;
+    padding: 0px 150px;
+    background: linear-gradient(90deg, #181818 50%, #111111 50%);
+}
+
+.cards{
+    display: block;
+    width: 25vw;
+    height: 60vh;
+    color: #fff;
+    background-color: #1e1e1e;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.cards img{
+    padding-left: 20px;
+}
+
+.cards p, .cards h2, .cards h4{
+    width: 100%;
+    text-align:left;
+    padding-left: 50px;   
+}
+
+.cards p{
+    width: 80%;
+}
+
+.card-2{
+    background-color: #c91b28;
+}
+
+.card-1 h4, .card-3 h4{
+    color: #ff3343;
+}
+
+.page-3{
+    background: linear-gradient(90deg, #181818 50%, #111111 50%);
+}
+
+.grid{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.grid h1{
+    color: #ef4040;
+}
+
+.exp-12-card, .ac-1, .ac-2, .ac-3, .ac-4{
+    justify-self: center;
+    align-self: center;
+}
+
+.ac-1, .ac-2, .ac-3, .ac-4{
+    background-color:#1e1e1e;
+    width: 200px;
+    padding-left: 100px;
+    margin-left: -250px;
+}
+
+.ac-3, .ac-4{
+    margin-top: -145px;
+}
+
+.exp-12-card{
+    grid-row: 1/2;
+}
+
+.exp-12-card h2{
+    margin-top: -75px;
+    margin-left: -60px;
+}
+
+.achivement-card h4{
+    margin-top: -30px;
+    margin-left: -25px;
+}
+
+.ac-1 h4{
+    margin-left: 15px;
+}
+
+.ac-3{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end:  2;
+}
+
+.ac-4{
+    grid-column-start: 3;
+    grid-column-end:  col3-end;
+    grid-row-start: 2;
+    grid-row-end:  2;
+}
+
+.exp-12-card h1{
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.achivement-card h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.page-4-title-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-4-title{
+    color: #fff;
+    margin-top: 25px;
+}
+
+.page-4-button button{
+    margin-top: 60px;
+    background-color: #c91b28;
+    color: #fff;
+    padding: 10px 35px;
+    font-weight: 600;
+    border: transparent;
+}
+
+.example-1{
+    background-color: #1e1e1e;
+    width: 35vw;
+    margin-left: ;
+}
+
+.example-1 img{
+    width: 400px;
+    height: 200px;
+    padding: 60px 20px;
+}
+
+.project-card h1{
+    color: #fff;
+    font-weight: 900;
+}
+
+.project-card h4{
+    color: #ff3343;
+}
+
+.projects-demo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.call-to-action{
+    display: flex;
+    margin: 35px 75px;
+    justify-content: space-around;
+    background-color:  #1e1e1e;
+    color: #fff;
+    padding: 25px 100px;
+}
+
+.contact-button button{
+    background-color: #c91b28;
+    color: #fff;
+    padding: 10px 35px;
+    font-weight: 600;
+    border: transparent;
+    margin-top: 100px;
+}
+
+.text-box{
+    width: 65%;
+}
+
+.text-box h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.last-page-nav-menu{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+}
+
+.last-page-nav-menu .menu{
+    padding-left: 25px;
+    font-weight: 400;
+}
+
+.footer{
+    display: flex;
+    position:static;
+    margin-top: 25px;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #1e1e1e;
+}
+
+.footer-logo{
+    margin-left: 100px;
+}
+
+#fb-logo{
+    margin-left: 350px;
+}
